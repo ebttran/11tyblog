@@ -1,6 +1,6 @@
 <html>
     <head>
-       <title> About the site </title>
+       <title> {{title}} </title>
     </head>
     <body>
         <nav>
@@ -9,8 +9,7 @@
                 <li><a href="/about">About</a></li>
         </nav>
         <h1>Eric's blog with 11ty</h1>
-        <h2> About the site </h2>
-        <p>testestest</p>
-
+        <h2> {{title}} </h2>
+        {{content | safe }}
     </body>
 </html>
